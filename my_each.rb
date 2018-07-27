@@ -7,8 +7,3 @@ def my_each(array)
   end
 end
 
-my_each(["arel", "jon", "logan", "spencer"]) do |name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
-  end
-end
