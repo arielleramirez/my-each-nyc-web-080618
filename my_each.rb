@@ -7,7 +7,7 @@ def my_each(array)
   end
 end
 
-hello_t(["arel", "jon", "logan", "spencer"]) do |name|
+my_each(["arel", "jon", "logan", "spencer"]) do |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
