@@ -7,7 +7,7 @@ def my_each(array)
   end
 end
 
-my_each(["arel", "jon", "logan", "spencer"]) do |array|
+my_each(["arel", "jon", "logan", "spencer"]) do |name|
  
   end
 end
