@@ -5,9 +5,6 @@ def my_each(array)
     yield array[i]
     i = i + 1
   end
-end
+array
 
-my_each(["arel", "jon", "logan", "spencer"]) do |name|
- 
-  end
 end
